@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using FileIO
 using GLMakie
 GLMakie.activate!() # hide
@@ -9,7 +9,7 @@ gold = FileIO.load(download("https://raw.githubusercontent.com/nidorx/matcaps/ma
 
 mesh(catmesh, matcap=gold, shading=false)
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_11281650883990564318.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_11281650883990564318.png"), __result) # hide
+
+nothing # hide

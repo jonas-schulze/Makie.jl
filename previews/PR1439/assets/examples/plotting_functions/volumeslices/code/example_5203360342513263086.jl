@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using GLMakie
 GLMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -37,7 +37,7 @@ set_close_to!(sl_xy, .5length(z))
 
 fig
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_5203360342513263086.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_5203360342513263086.png"), __result) # hide
+
+nothing # hide

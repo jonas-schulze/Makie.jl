@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 
 f = Figure()
@@ -12,7 +12,7 @@ Label(f[2, 2], "tellheight = false", tellheight = false)
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_1508600226322032452.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_1508600226322032452.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_1508600226322032452.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_1508600226322032452.svg"), __result) # hide
+nothing # hide

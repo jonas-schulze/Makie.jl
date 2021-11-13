@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using GLMakie
 GLMakie.activate!()
 
@@ -12,7 +12,7 @@ lscene = LScene(fig[1, 1], scenekw = (camera = cam3d!,))
 meshscatter!(lscene, randn(100, 3))
 fig
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_11818769091892431030.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_11818769091892431030.png"), __result) # hide
+
+nothing # hide

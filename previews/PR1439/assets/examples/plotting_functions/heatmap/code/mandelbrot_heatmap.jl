@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -13,7 +13,7 @@ end
 heatmap(-2:0.1:1, -1.1:0.1:1.1, mandelbrot,
     colormap = Reverse(:deep))
 
-  end # hide
-  save(joinpath(@OUTPUT, "mandelbrot_heatmap.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "mandelbrot_heatmap.png"), __result) # hide
+
+nothing # hide

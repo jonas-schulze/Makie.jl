@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using GLMakie
 GLMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -14,7 +14,7 @@ arrows(
     align = :center, axis=(type=Axis3,)
 )
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_1233477998829476621.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_1233477998829476621.png"), __result) # hide
+
+nothing # hide

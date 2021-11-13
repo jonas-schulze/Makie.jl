@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 barplot([-1, -0.5, 0.5, 1],
     bar_labels = :y,
     axis = (title="Fonts + flip_labels_at",),
@@ -11,7 +11,7 @@ barplot([-1, -0.5, 0.5, 1],
     label_offset = 10
 )
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_11429484351244137713.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_11429484351244137713.png"), __result) # hide
+
+nothing # hide

@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -12,7 +12,7 @@ end
 
 violin(xs, ys, datalimits = extrema)
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_14222554269287691866.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_14222554269287691866.png"), __result) # hide
+
+nothing # hide

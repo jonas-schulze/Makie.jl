@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using Statistics
 using CairoMakie
 CairoMakie.activate!() # hide
@@ -19,7 +19,7 @@ lines!(t, μ)              # plot mean line
 band!(t, μ + σ, μ - σ)   # plot stddev band
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_10499194249938380329.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_10499194249938380329.png"), __result) # hide
+
+nothing # hide

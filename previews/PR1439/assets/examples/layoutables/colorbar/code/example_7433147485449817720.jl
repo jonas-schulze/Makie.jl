@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 
 xs = LinRange(0, 20, 50)
@@ -26,7 +26,7 @@ Colorbar(fig[2, 2][1, 2], hm, ticks = -1:0.25:1)
 
 fig
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_7433147485449817720.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_7433147485449817720.png"), __result) # hide
+
+nothing # hide

@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 xs = LinRange(0.5, 6, 50)
 ys = LinRange(0.5, 6, 50)
 data1 = [sin(x^1.5) * cos(y^0.5) for x in xs, y in ys] .+ 0.1 .* randn.()
@@ -18,7 +18,7 @@ contour!(xs, ys, data2, levels = 5, color = :black)
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_2190253460210951280.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_2190253460210951280.png"), __result) # hide
+
+nothing # hide

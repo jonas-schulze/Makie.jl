@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -17,7 +17,7 @@ Legend(f[1, 2], ax)
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_7163903792067819962.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_7163903792067819962.png"), __result) # hide
+
+nothing # hide

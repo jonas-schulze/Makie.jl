@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 
@@ -13,7 +13,7 @@ ax3 = Axis(f, bbox = BBox(200, 600, 100, 500),
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_17937530959443368362.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_17937530959443368362.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_17937530959443368362.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_17937530959443368362.svg"), __result) # hide
+nothing # hide

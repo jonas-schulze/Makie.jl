@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 Makie.inline!(true) # hide
 CairoMakie.activate!() # hide
@@ -36,7 +36,7 @@ scatter!(points, color = colors, colormap = [:black, :orange], strokewidth = 0)
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_13269722351159645860.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_13269722351159645860.png"), __result) # hide
+
+nothing # hide

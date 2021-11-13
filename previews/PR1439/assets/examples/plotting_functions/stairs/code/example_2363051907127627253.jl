@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -16,7 +16,7 @@ stairs(f[3, 1], xs, ys; step=:center, color=:red, linestyle=:dot)
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_2363051907127627253.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_2363051907127627253.png"), __result) # hide
+
+nothing # hide

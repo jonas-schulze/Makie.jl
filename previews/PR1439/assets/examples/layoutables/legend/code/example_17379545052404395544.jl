@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 
@@ -20,7 +20,7 @@ Legend(f[1, 2],
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_17379545052404395544.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_17379545052404395544.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_17379545052404395544.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_17379545052404395544.svg"), __result) # hide
+nothing # hide

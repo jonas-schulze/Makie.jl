@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -19,7 +19,7 @@ barplot(tbl.x, tbl.height,
                 title = "Stacked bars"),
         )
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_5413237784735655496.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_5413237784735655496.png"), __result) # hide
+
+nothing # hide

@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 
 fig = Figure()
@@ -16,7 +16,7 @@ colgap!(fig.layout, 1, Relative(0.15))
 
 fig
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_701624613800466984.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_701624613800466984.png"), __result) # hide
+
+nothing # hide

@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 
 using CairoMakie
 
@@ -12,7 +12,7 @@ lines(x, y1)
 lines!(x, y2)
 current_figure()
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_14401808332526033325.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_14401808332526033325.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_14401808332526033325.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_14401808332526033325.svg"), __result) # hide
+nothing # hide

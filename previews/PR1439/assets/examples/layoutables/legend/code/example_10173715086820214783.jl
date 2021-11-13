@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 
 f = Figure()
@@ -19,7 +19,7 @@ Legend(f[2, 1], [lin, sca, lin], ["a line", "some dots", "line again"],
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_10173715086820214783.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_10173715086820214783.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_10173715086820214783.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_10173715086820214783.svg"), __result) # hide
+nothing # hide

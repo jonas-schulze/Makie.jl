@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 ggplot_theme = Theme(
     Axis = (
         backgroundcolor = :gray90,
@@ -15,7 +15,7 @@ ggplot_theme = Theme(
 
 with_theme(example_plot, ggplot_theme)
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_3726076456766619082.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_3726076456766619082.png"), __result) # hide
+
+nothing # hide

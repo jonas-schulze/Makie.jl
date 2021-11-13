@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using GLMakie
 GLMakie.activate!() # hide
 fig = Figure()
@@ -21,7 +21,7 @@ connect!(line2.visible, toggles[2].active)
 
 fig
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_2263797281113359503.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_2263797281113359503.png"), __result) # hide
+
+nothing # hide

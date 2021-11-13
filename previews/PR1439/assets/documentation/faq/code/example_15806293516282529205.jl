@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 
 set_theme!(backgroundcolor = :gray90)
@@ -17,7 +17,7 @@ Colorbar(f[1:3, 4])
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_15806293516282529205.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_15806293516282529205.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_15806293516282529205.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_15806293516282529205.svg"), __result) # hide
+nothing # hide

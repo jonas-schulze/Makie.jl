@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 
 f = Figure()
@@ -13,7 +13,7 @@ Axis(f[end, end], title = "[end, end]")
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_5420049533503203765.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_5420049533503203765.png"), __result) # hide
+
+nothing # hide

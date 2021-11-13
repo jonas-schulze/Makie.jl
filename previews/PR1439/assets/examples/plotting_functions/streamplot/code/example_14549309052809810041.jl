@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -23,7 +23,7 @@ f(x) = f(x, P)
 
 streamplot(f, -1.5..1.5, -1.5..1.5, colormap = :magma)
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_14549309052809810041.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_14549309052809810041.png"), __result) # hide
+
+nothing # hide

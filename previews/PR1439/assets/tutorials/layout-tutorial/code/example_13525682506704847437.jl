@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 axs = [Axis(gd[row, col]) for row in 1:3, col in 1:2]
 hidedecorations!.(axs, grid = false, label = false)
 
@@ -18,7 +18,7 @@ axs[3, 2].xlabel = "Day 2"
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_13525682506704847437.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_13525682506704847437.png"), __result) # hide
+
+nothing # hide

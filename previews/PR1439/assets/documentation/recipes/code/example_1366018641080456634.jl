@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 timestamps = 1:100
 
 # we create some fake stock values in a way that looks pleasing later
@@ -25,7 +25,7 @@ stockchart(f[2, 1], timestamps, stockvalues,
     downcolor = :purple, upcolor = :orange)
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_1366018641080456634.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_1366018641080456634.png"), __result) # hide
+
+nothing # hide

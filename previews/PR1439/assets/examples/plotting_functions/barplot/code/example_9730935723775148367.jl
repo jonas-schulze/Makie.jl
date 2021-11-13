@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 
 #Gantt data
@@ -54,7 +54,7 @@ Legend(fig[1,1], elements, labels, "Jobs", orientation=:horizontal, tellwidth = 
 
 fig
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_9730935723775148367.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_9730935723775148367.png"), __result) # hide
+
+nothing # hide

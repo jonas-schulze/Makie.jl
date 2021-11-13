@@ -34,8 +34,8 @@ App() do session::Session
     """
 end
 
-  end # hide
-  println("~~~") # hide
-  show(stdout, MIME"text/html"(), __result) # hide
-  println("~~~") # hide
-  nothing # hide
+end # hide
+println("~~~") # hide
+show(stdout, MIME"text/html"(), __result) # hide
+println("~~~") # hide
+nothing # hide

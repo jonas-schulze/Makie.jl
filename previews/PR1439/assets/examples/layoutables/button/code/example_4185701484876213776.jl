@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using GLMakie
 GLMakie.activate!() # hide
 fig = Figure()
@@ -26,7 +26,7 @@ ylims!(ax, 0, 20)
 
 fig
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_4185701484876213776.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_4185701484876213776.png"), __result) # hide
+
+nothing # hide

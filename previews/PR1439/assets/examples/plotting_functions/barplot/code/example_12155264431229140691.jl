@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 barplot(
     tbl.x, tbl.height,
     dodge = tbl.grp,
@@ -15,7 +15,7 @@ barplot(
     direction=:x,
 )
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_12155264431229140691.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_12155264431229140691.png"), __result) # hide
+
+nothing # hide

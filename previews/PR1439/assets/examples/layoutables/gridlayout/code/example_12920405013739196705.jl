@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 
 f = Figure(resolution = (800, 800))
@@ -20,7 +20,7 @@ Label(f[2:end-1, end+1], text = "Right Text", textsize = 50,
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_12920405013739196705.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_12920405013739196705.png"), __result) # hide
+
+nothing # hide

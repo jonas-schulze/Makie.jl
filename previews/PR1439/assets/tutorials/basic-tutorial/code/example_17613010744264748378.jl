@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 
 using CairoMakie
 
@@ -14,7 +14,7 @@ sc.color = :green
 sc.markersize = 20
 current_figure()
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_17613010744264748378.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_17613010744264748378.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_17613010744264748378.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_17613010744264748378.svg"), __result) # hide
+nothing # hide

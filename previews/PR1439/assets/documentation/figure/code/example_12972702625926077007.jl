@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 
@@ -16,7 +16,7 @@ heatmap(f[1, 3], randn(10, 10))
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_12972702625926077007.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_12972702625926077007.png"), __result) # hide
+
+nothing # hide

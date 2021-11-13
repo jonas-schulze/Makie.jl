@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using FileIO
 using GLMakie
 GLMakie.activate!() # hide
@@ -15,7 +15,7 @@ mesh(
     figure = (resolution = (1000, 1000),)
 )
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_4580049485859152347.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_4580049485859152347.png"), __result) # hide
+
+nothing # hide

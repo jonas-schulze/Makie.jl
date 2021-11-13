@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 colors = Makie.wong_colors()
 
 # Figure and Axis
@@ -22,7 +22,7 @@ Legend(fig[1,2], elements, labels, title)
 
 fig
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_6570482436889449670.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_6570482436889449670.png"), __result) # hide
+
+nothing # hide

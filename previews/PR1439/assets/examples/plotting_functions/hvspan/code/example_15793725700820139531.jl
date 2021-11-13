@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 
@@ -13,7 +13,7 @@ hspan!(ax, -1.1, -0.9, color = (:blue, 0.2))
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_15793725700820139531.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_15793725700820139531.png"), __result) # hide
+
+nothing # hide

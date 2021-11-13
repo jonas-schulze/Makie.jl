@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 using ColorSchemes
 
@@ -12,7 +12,7 @@ rects = fig[1:4, 1:6] = [
 
 fig
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_6619029372363114125.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_6619029372363114125.png"), __result) # hide
+
+nothing # hide

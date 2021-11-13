@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -19,7 +19,7 @@ lines(f[2, 1], -100:0.1:100, axis = (
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_10209522166838304940.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_10209522166838304940.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_10209522166838304940.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_10209522166838304940.svg"), __result) # hide
+nothing # hide

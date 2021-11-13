@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using GLMakie
 GLMakie.activate!() # hide
 fig = Figure()
@@ -25,7 +25,7 @@ fig[:, end+1] = Colorbar(fig, hm)
 
 fig
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_15693051328882652607.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_15693051328882652607.png"), __result) # hide
+
+nothing # hide

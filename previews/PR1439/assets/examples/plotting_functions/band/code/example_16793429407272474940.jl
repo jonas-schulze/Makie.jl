@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -17,7 +17,7 @@ band!(xs, ys_low .- 1, ys_high .-1, color = :red)
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_16793429407272474940.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_16793429407272474940.png"), __result) # hide
+
+nothing # hide

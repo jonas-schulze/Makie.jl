@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using GLMakie
 using FileIO
 GLMakie.activate!() # hide
@@ -28,7 +28,7 @@ end
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_4121561445710464503.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_4121561445710464503.png"), __result) # hide
+
+nothing # hide

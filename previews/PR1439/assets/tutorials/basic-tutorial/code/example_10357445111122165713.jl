@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 
 using CairoMakie
 
@@ -13,7 +13,7 @@ sc = scatter!(x, y2, color = range(0, 1, length=100), colormap = :thermal)
 
 current_figure()
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_10357445111122165713.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_10357445111122165713.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_10357445111122165713.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_10357445111122165713.svg"), __result) # hide
+nothing # hide

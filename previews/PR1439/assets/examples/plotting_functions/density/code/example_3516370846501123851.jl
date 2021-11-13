@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -13,7 +13,7 @@ for x in 1:5
 end
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_3516370846501123851.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_3516370846501123851.png"), __result) # hide
+
+nothing # hide

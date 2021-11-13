@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 using FileIO
 using Random # hide
@@ -36,7 +36,7 @@ axes[2, 3].aspect = AxisAspect(2/3)
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_16163597923448181211.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_16163597923448181211.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_16163597923448181211.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_16163597923448181211.svg"), __result) # hide
+nothing # hide

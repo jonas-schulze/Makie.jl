@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 
 f = Figure()
@@ -13,7 +13,7 @@ colsize!(f.layout, 1, Relative(2/3))
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_17124422269675321167.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_17124422269675321167.png"), __result) # hide
+
+nothing # hide

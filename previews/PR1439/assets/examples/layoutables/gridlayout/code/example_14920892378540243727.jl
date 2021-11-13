@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 
 f = Figure(resolution = (800, 800))
@@ -17,7 +17,7 @@ Axis(f[3, 2], title = "Outside(50)", alignmode = Outside(50))
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_14920892378540243727.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_14920892378540243727.png"), __result) # hide
+
+nothing # hide

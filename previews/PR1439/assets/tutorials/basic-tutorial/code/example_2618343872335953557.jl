@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 
 using CairoMakie
 
@@ -13,7 +13,7 @@ lines!(x, y2, color = :blue, label = "cos")
 axislegend()
 current_figure()
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_2618343872335953557.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_2618343872335953557.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_2618343872335953557.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_2618343872335953557.svg"), __result) # hide
+nothing # hide

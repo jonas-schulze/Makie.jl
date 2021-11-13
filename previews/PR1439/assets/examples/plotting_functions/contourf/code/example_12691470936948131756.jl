@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -19,7 +19,7 @@ Colorbar(f[1, 2], co)
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_12691470936948131756.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_12691470936948131756.png"), __result) # hide
+
+nothing # hide

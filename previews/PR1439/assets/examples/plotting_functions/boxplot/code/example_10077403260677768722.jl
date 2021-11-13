@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -11,7 +11,7 @@ dodge = rand(1:2, 1000)
 
 boxplot(xs, ys, dodge = dodge, show_notch = true, color = dodge)
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_10077403260677768722.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_10077403260677768722.png"), __result) # hide
+
+nothing # hide

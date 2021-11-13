@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -17,7 +17,7 @@ rangebars!(vals, lows, highs, color = LinRange(0, 1, length(vals)),
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_1127581905859221458.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_1127581905859221458.png"), __result) # hide
+
+nothing # hide

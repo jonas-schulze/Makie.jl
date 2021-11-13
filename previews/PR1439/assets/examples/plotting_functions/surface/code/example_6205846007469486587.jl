@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using SparseArrays
 using LinearAlgebra
 using GLMakie
@@ -47,7 +47,7 @@ data = 0.1randn(d,d) + reshape(
 surface(data; shading=false, colormap = :deep)
 surface(data; shading=false, colormap = :deep)
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_6205846007469486587.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_6205846007469486587.png"), __result) # hide
+
+nothing # hide

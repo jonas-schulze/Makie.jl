@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -28,7 +28,7 @@ axes[4].xlabel = "Time"
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_11589167853588196459.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_11589167853588196459.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_11589167853588196459.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_11589167853588196459.svg"), __result) # hide
+nothing # hide

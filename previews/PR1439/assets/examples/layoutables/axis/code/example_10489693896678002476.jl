@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -17,7 +17,7 @@ hideydecorations!(ax3, ticks = false)
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_10489693896678002476.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_10489693896678002476.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_10489693896678002476.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_10489693896678002476.svg"), __result) # hide
+nothing # hide

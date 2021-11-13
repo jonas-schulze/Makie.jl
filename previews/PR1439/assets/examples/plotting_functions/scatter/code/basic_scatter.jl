@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -18,7 +18,7 @@ scatter!(xs, ys .- 3, marker = 'a':'t', strokewidth = 0, color = :black)
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "basic_scatter.png"), __result) # hide
-  save(joinpath(@OUTPUT, "basic_scatter.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "basic_scatter.png"), __result) # hide
+save(joinpath(@OUTPUT, "basic_scatter.svg"), __result) # hide
+nothing # hide

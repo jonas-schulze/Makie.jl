@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 using Makie.GeometryBasics
@@ -17,7 +17,7 @@ poly!(ps, color = rand(RGBf, length(ps)))
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_16883508933301770276.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_16883508933301770276.png"), __result) # hide
+
+nothing # hide

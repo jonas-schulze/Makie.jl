@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -16,7 +16,7 @@ barplot(relative_speeds, fillto = 0.5,
 ylims!(0.5, 10000)
 current_figure()
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_14294748689859113481.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_14294748689859113481.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_14294748689859113481.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_14294748689859113481.svg"), __result) # hide
+nothing # hide

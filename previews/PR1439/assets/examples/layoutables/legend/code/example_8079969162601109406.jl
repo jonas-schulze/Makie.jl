@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 
 f = Figure()
@@ -21,7 +21,7 @@ axislegend(ax, [sc1, sc2], ["One", "Two"], "Selected Dots", position = :rb,
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_8079969162601109406.png"), __result) # hide
-  save(joinpath(@OUTPUT, "example_8079969162601109406.svg"), __result) # hide
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_8079969162601109406.png"), __result) # hide
+save(joinpath(@OUTPUT, "example_8079969162601109406.svg"), __result) # hide
+nothing # hide

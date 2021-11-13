@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using GLMakie
 
 fig = Figure()
@@ -31,7 +31,7 @@ set_close_to!(lsgrid.sliders[3], 15.9)
 
 fig
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_13775274304740427563.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_13775274304740427563.png"), __result) # hide
+
+nothing # hide

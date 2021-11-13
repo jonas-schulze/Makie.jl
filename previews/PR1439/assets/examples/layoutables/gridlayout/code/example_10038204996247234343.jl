@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 
 f = Figure()
@@ -14,7 +14,7 @@ colsize!(f.layout, 3, Auto(2)) # equivalent to Auto(true, 2)
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_10038204996247234343.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_10038204996247234343.png"), __result) # hide
+
+nothing # hide

@@ -1,6 +1,6 @@
 # This file was generated, do not modify it. # hide
 __result = begin # hide
-  
+    
 using CairoMakie
 CairoMakie.activate!() # hide
 Makie.inline!(true) # hide
@@ -16,7 +16,7 @@ barplot!(xs, ys .- 1, fillto = -1, color = xs, strokecolor = :black, strokewidth
 
 f
 
-  end # hide
-  save(joinpath(@OUTPUT, "example_5632442707325795766.png"), __result) # hide
-  
-  nothing # hide
+end # hide
+save(joinpath(@OUTPUT, "example_5632442707325795766.png"), __result) # hide
+
+nothing # hide
